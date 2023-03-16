@@ -1,6 +1,6 @@
 h1 {
     color: red;
-    border: 1.0rem dotted red;
+    border: 1.0rem groove red;
 }
 h2, h3, h4, h5, h6 {
 
@@ -24,3 +24,59 @@ p.maiusculo{
     font: italic small-caps bold 2rem monospace;
     text-shadow: 0.2rem 0.2rem 0.3rem black, 0 0 1rem blue, 0 0 2rem darkblue;
 }
+
+a:link, a:visited , a:active{
+text-decoration: none;
+color: darkgoldenrod ; 
+
+}
+a:hover {
+    color: darkorange;
+
+}
+
+footer {
+    clear: both;
+    background: rgb(116, 112, 112) url("../img/pngtree-school-icon-for-your-project-png-image_1520362-removebg-preview.png") no-repeat left bottom;
+    height: 3rem;
+}
+
+div{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: inline;
+    z-index: 2rem;
+    background-color: darkgreen;
+    color: white;
+    border: 0.2rem solid darkgreen;
+    padding: 0.2rem;
+    font-size: 2rem;
+
+}
+
+h1.page2{
+    color: blue;
+    border: 2rem groove rgb(83, 83, 192);
+    border-radius: 1rem;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+section img{
+    float: left;
+    display: block;
+}
+
+
+main.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10rem;
+}
+
+main
+
+
